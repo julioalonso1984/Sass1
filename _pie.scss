@@ -1,0 +1,17 @@
+.pie{
+    grid-column: 1/4;
+    grid-row: 4/5;
+    background-color: rgb(128, 128, 128);
+    text-align: center;
+    h4{
+        font-size: 30px;
+    }
+    a{
+        font-size: 40px;
+    }
+    p{
+        background-color: rgb(31, 32, 110);
+        font-size: 20px;
+        color: rgb(219, 35, 35);
+    }
+}

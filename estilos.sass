@@ -1,0 +1,72 @@
+$color1: rgb(31, 32, 110)
+$color2: rgb(219, 35, 35)
+$color3: rgb(128, 128, 128)
+
+
+.Asociacion
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-template-rows: 80px 50px 500px 200px
+
+.encabezado
+    grid-column: 1/4
+    grid-row: 1/2
+    background-color: $color1
+    color: $color2
+    text-align: center
+    font-size: 70px
+    text-transform: uppercase
+    span
+        color: $color3
+
+.link
+    grid-column: 1/4
+    grid-row: 2/3
+    background-color: $color3
+    li
+        display: inline-block
+        a
+            color: $color2
+            font-size: 20px
+            text-shadow: 2px 2px 2px black
+            margin-left: 20px
+        :hover
+            color: white
+
+.dedicamos
+    grid-column: 1/2
+    grid-row: 3/4
+    background-color: $color2
+    h3
+        text-align: center
+        font-size: 35px
+        color: $color1
+    p
+        color: $color3
+        text-shadow: 3px 3px 3px black
+        font-size: 25px
+
+
+.ubicacion
+    grid-column: 2/3
+    grid-row: 3/4
+    background-color: $color1
+    h2
+        color: $color2
+    iframe
+        margin-left: 20%
+        margin-right: auto
+
+.foto
+    grid-column: 3/4
+    grid-row: 3/4
+    background-image: url(./img/monaCecilia.jpg)
+    background-size: cover
+    background-position: center
+    p
+        font-size: 40px
+        text-shadow: 5px 5px 5px black
+        color: $color2
+
+
+@import "_pie"
